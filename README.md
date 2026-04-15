@@ -1,18 +1,10 @@
-# Auth-Management-Api
+  Management-api
 
-Laravel REST API for Authentication and Post Management using Sanctum + Swagger.
-
-## Features
-- User Registration & Login
-- Token-based Authentication (Sanctum)
-- CRUD API for Posts
-- Swagger API Documentation
-
-## Tech Stack
-- Laravel
-- MySQL
-- Sanctum
-- Swagger (L5-Swagger)
-
-## Author
-Sikandar Khan
+**Features**
+ Sanctum Authentication
+ Swagger (OpenAPI) Documentation
+ Repository Pattern Implementation
+ Post CRUD (via Repository Layer) 
+ Clean API structure (no Blade files)
+ Standardized JSON responses (success & error helpers)
+ Separation of concerns (Controller → Repository → Model)
